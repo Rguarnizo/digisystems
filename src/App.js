@@ -5,99 +5,72 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import "./App.css";
 import gsap from "gsap";
 import NavBar from "./components/NavBar";
+import { Torus,SpotLight, OrbitControls} from "@react-three/drei";
 
-function Phone() {
-  let gltf = useLoader(GLTFLoader, "Models/Phone/Phone.gltf");
 
-  useEffect(() => {
-    gltf.scene.scale.set(25, 25, 25);
-    gltf.scene.position.set(-0.5, -0.5, 0);
-    gltf.scene.rotation.set(Math.PI / 6, -Math.PI / 4, 0);
+function Scene() {
+  
+  const torus = useRef()
+  let phone = useLoader(GLTFLoader, "Models/Phone2/Phone.gltf");
+  let camera = useLoader(GLTFLoader, "Models/Camera2/Camera.gltf");
+
+  useEffect(()=>{
+    phone.scene.scale.set(0.1,0.1,0.1);
+    phone.scene.rotation.set(Math.PI/4,Math.PI,0);
+    camera.scene.scale.set(3,3,3);
+    camera.scene.rotation.set(0,Math.PI/2,0);
+
+    console.log(phone);
+    console.log(camera);
+  },[])
+
+  useFrame(()=>{
+    phone.scene.rotation.x += 0.01
+    phone.scene.rotation.y += 0.01
+    camera.scene.rotation.x += 0.01
+    camera.scene.rotation.y += 0.01
+    phone.scene.position.x -= 0.05
+    camera.scene.position.x += 0.05
+    if(camera.scene.position.x >= 12){
+      camera.scene.position.set(-12,0,0);
+    }
+    if(phone.scene.position.x <= -11){
+      phone.scene.position.set(11,0,0);
+    }
+
   });
 
   return (
     <>
-      <primitive object={gltf.scene} />
+      <primitive object={phone.scene} />
+      <primitive object={camera.scene} />
     </>
   );
 }
 
 function App() {
-  const venueImageWrap = useRef();
-  const venueImage = useRef();
-
-  useEffect(() => {
-    venueImageWrap.current = document.querySelector(".container-img-wrap");
-    venueImage.current = document.querySelector(".container-img");
-    let services = gsap.utils.toArray(".service");
-    services.forEach((service) => {
-      service.addEventListener("mouseenter", venueHover);
-      service.addEventListener("mouseleave", venueHover);
-      service.addEventListener("mousemove", moveVenueImage);
-    });
-  }, []);
-
-  function moveVenueImage(e) {
-    let xpos = e.clientX;
-    let ypos = e.clientY;
-    const tl = gsap.timeline();
-    tl.to(venueImageWrap.current, {
-      x: xpos,
-      y: ypos,
-    });
-  }
-
-  function venueHover(e) {
-    if (e.type === "mouseenter") {
-      const targetImage = e.target.dataset.class;
-      const tl = gsap.timeline();
-      tl.set(venueImage.current, {
-        backgroundImage: `url(/${targetImage}.jpg)`,
-      }).to(venueImageWrap.current, {
-        duration: 0.5,
-        autoAlpha: 1,
-      });
-    } else if (e.type === "mouseleave") {
-      const tl = gsap.timeline();
-      tl.to(venueImageWrap.current, {
-        duration: 0.5,
-        autoAlpha: 0,
-      });
-    }
-  }
 
   return (
-    <>
-      <NavBar />
-
-      <div className="w-max m-auto text-center">
-        <div className="text-r exo-2 cursor-pointer visible">
-          <div className="container-img-wrap">
-            <div className="container-img"></div>
-          </div>
-          <div className="service" data-class="Citofono">
-            <span className="services" data-class="Citofono">
-              Citofonos <br />
-            </span>
-          </div>
-          <div className="service" data-class="Camara">
-            <span className="services" data-class="Camara">
-              Camaras (CCTV) <br />
-            </span>
-          </div>
-          <div className="service" data-class="Alarma">
-            <span className="services" data-class="Alarma">
-              Alarmas <br />
-            </span>
-          </div>
-          <div className="service" data-class="Access">
-            <span className="services" data-class="Access">
-              Control de Acceso
-            </span>
-          </div>
-        </div>
+    <div className="main exo-2">
+      <div className="flex m-auto text-center w-min h-screen items-center z-10 t-2xl">
+        <span style={{zIndex:2}}>DIGISYS</span><span style={{zIndex:0}}>TEMS</span>
       </div>
-    </>
+      <div className="absolute w-screen h-screen top-0 left-0" style={{zIndex:1}}>
+        <Canvas >
+        
+        {/* <pointLight intensity={1} position={[0,2,0]} visible/>
+        <pointLight intensity={1} position={[0,-2,0]} visible/>
+        <pointLight intensity={1} position={[2,0,0]} visible/>
+        <pointLight intensity={1} position={[-2,0,0]} visible/> */}
+        <directionalLight shadow/> 
+        <hemisphereLight/>    
+          <Suspense fallback={null}>
+              <Scene/>
+          </Suspense>
+        </Canvas>
+        <div className="h-screen w-screen"></div>
+      </div>
+    </div>
   );
 }
 

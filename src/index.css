@@ -8,11 +8,33 @@
   font-family: 'Exo 2';
 }
 
-.text-r{
-  font-size: 6vw;
+.t-s{
+  font-size: calc(1vw + 1vw);
 }
 
+.t-m{
+  font-size: calc(2vw + 2vw);
+}
 
+.t-l{
+  font-size: calc(3vw + 3vw);
+}
+
+.t-xl{
+  font-size: calc(4vw + 4vw);
+}
+
+.t-2xl{
+  font-size: calc(5vw + 5vw);
+}
+
+.t-4xl{
+  font-size: calc(6vw + 6vw);
+}
+
+.t-8xl{
+  font-size: calc(8vw + 8vw);
+}
 canvas{
   height: inherit;
   width: inherit;
