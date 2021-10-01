@@ -1,0 +1,254 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Home_Alarm_Kit_002_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Home_Alarm_Kit_050_0"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Home_Alarm_Kit_049_0"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "wire_006135058",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.11387883871793747,
+                    0.11293026059865952,
+                    0.10766015946865082,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.015741879120469093,
+                    0.023663967847824097,
+                    1
+                ],
+                "metallicFactor" : 0.893081784248352,
+                "roughnessFactor" : 0.09433962404727936
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "wire_008061138",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8103699684143066,
+                    0.8086472749710083,
+                    0.7862350344657898,
+                    1
+                ],
+                "metallicFactor" : 0.08805031329393387,
+                "roughnessFactor" : 0.15094339847564697
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Home_Alarm_Kit_002_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_050_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_049_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 150,
+            "max" : [
+                0.07958000153303146,
+                0.028689999133348465,
+                0.10868000239133835
+            ],
+            "min" : [
+                0.05119000002741814,
+                0.025800000876188278,
+                0.10106000304222107
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 150,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 264,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1567,
+            "max" : [
+                0.04746999964118004,
+                0.08100000023841858,
+                -0.052969999611377716
+            ],
+            "min" : [
+                -0.03214000165462494,
+                0.03522999957203865,
+                -0.10509999841451645
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1567,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 7680,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 6754,
+            "max" : [
+                0.053849998861551285,
+                0.17282000184059143,
+                -0.049970000982284546
+            ],
+            "min" : [
+                -0.035599999129772186,
+                0.03407000005245209,
+                -0.1131799966096878
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 6754,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 37632,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1800,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1800,
+            "byteOffset" : 1800
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 528,
+            "byteOffset" : 3600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18804,
+            "byteOffset" : 4128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18804,
+            "byteOffset" : 22932
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15360,
+            "byteOffset" : 41736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81048,
+            "byteOffset" : 57096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81048,
+            "byteOffset" : 138144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 75264,
+            "byteOffset" : 219192
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 294456,
+            "uri" : "Alarm.bin"
+        }
+    ]
+}

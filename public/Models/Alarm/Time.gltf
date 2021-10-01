@@ -1,0 +1,925 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Home_Alarm_Kit_005_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Home_Alarm_Kit_006_0"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Home_Alarm_Kit_015_0"
+        },
+        {
+            "mesh" : 3,
+            "name" : "Home_Alarm_Kit_003_0"
+        },
+        {
+            "mesh" : 4,
+            "name" : "Home_Alarm_Kit_008_0"
+        },
+        {
+            "mesh" : 5,
+            "name" : "Home_Alarm_Kit_011_0"
+        },
+        {
+            "mesh" : 6,
+            "name" : "Home_Alarm_Kit_009_0"
+        },
+        {
+            "mesh" : 7,
+            "name" : "Home_Alarm_Kit_002_0"
+        },
+        {
+            "mesh" : 8,
+            "name" : "Home_Alarm_Kit_016_0"
+        },
+        {
+            "mesh" : 9,
+            "name" : "Home_Alarm_Kit_014_0"
+        },
+        {
+            "mesh" : 10,
+            "name" : "Home_Alarm_Kit_004_0"
+        },
+        {
+            "mesh" : 11,
+            "name" : "Home_Alarm_Kit_012_0"
+        },
+        {
+            "mesh" : 12,
+            "name" : "Home_Alarm_Kit_007_0"
+        },
+        {
+            "mesh" : 13,
+            "name" : "Home_Alarm_Kit_001_0"
+        },
+        {
+            "mesh" : 14,
+            "name" : "Home_Alarm_Kit_010_0"
+        },
+        {
+            "mesh" : 15,
+            "name" : "Home_Alarm_Kit_013_0"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "wire_006135058",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.11387883871793747,
+                    0.11293026059865952,
+                    0.10766015946865082,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "wire_008061138",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8103699684143066,
+                    0.8086472749710083,
+                    0.7862350344657898,
+                    1
+                ],
+                "metallicFactor" : 0.08805031329393387,
+                "roughnessFactor" : 0.15094339847564697
+            }
+        },
+        {
+            "name" : "wire_225088199",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8741016983985901,
+                    0.868833065032959,
+                    0.8394287824630737,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Home_Alarm_Kit_005_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_006_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_015_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_003_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_008_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_011_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_009_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 14,
+                        "NORMAL" : 15
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_002_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17
+                    },
+                    "indices" : 18,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_016_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 19,
+                        "NORMAL" : 20
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_014_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 21,
+                        "NORMAL" : 22
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_004_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 23,
+                        "NORMAL" : 24
+                    },
+                    "indices" : 25,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_012_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 26,
+                        "NORMAL" : 27
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_007_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 28,
+                        "NORMAL" : 29
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_001_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 30,
+                        "NORMAL" : 31
+                    },
+                    "indices" : 32,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_010_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 33,
+                        "NORMAL" : 34
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Home_Alarm_Kit_013_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 35,
+                        "NORMAL" : 36
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09347999840974808,
+                0.07287999987602234,
+                0.10665000230073929
+            ],
+            "min" : [
+                0.03353000059723854,
+                0.016179999336600304,
+                0.08834999799728394
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 132,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.034860000014305115,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.030859999358654022,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.07176999747753143,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.06776999682188034,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 1972,
+            "max" : [
+                0.10451000183820724,
+                0.08803000301122665,
+                0.10523000359535217
+            ],
+            "min" : [
+                0.019120000302791595,
+                0.0010300000431016088,
+                0.07339999824762344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 1972,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 10800,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.02954999916255474,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.025550000369548798,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.05610999837517738,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.05211000144481659,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.045490000396966934,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.04148999974131584,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 150,
+            "max" : [
+                0.07958000153303146,
+                0.028689999133348465,
+                0.10868000239133835
+            ],
+            "min" : [
+                0.05119000002741814,
+                0.025800000876188278,
+                0.10106000304222107
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 150,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5123,
+            "count" : 264,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.06673000007867813,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.06272999942302704,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.061420001089572906,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.057420000433921814,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5126,
+            "count" : 1498,
+            "max" : [
+                0.09711000323295593,
+                0.0774800032377243,
+                0.1131799966096878
+            ],
+            "min" : [
+                0.031209999695420265,
+                0.01157000008970499,
+                0.08721999824047089
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 1498,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5123,
+            "count" : 8976,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.04016999900341034,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.03616999834775925,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.018929999321699142,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.014929999597370625,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 466,
+            "max" : [
+                0.08246000111103058,
+                0.05350999906659126,
+                0.10938999801874161
+            ],
+            "min" : [
+                0.04853000119328499,
+                0.035339999943971634,
+                0.10029000043869019
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5126,
+            "count" : 466,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5123,
+            "count" : 774,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.05079999938607216,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.046799998730421066,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 34,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 35,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                0.09391999989748001,
+                0.024240000173449516,
+                0.10794000327587128
+            ],
+            "min" : [
+                0.03313999995589256,
+                0.020239999517798424,
+                0.08726000040769577
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 1152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 264,
+            "byteOffset" : 2304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 2568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 3720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 4872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 6024
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23664,
+            "byteOffset" : 7176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23664,
+            "byteOffset" : 30840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 21600,
+            "byteOffset" : 54504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 76104
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 77256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 78408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 79560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 80712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 81864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1800,
+            "byteOffset" : 83016
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1800,
+            "byteOffset" : 84816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 528,
+            "byteOffset" : 86616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 87144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 88296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 89448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 90600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17976,
+            "byteOffset" : 91752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17976,
+            "byteOffset" : 109728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17952,
+            "byteOffset" : 127704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 145656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 146808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 147960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 149112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5592,
+            "byteOffset" : 150264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5592,
+            "byteOffset" : 155856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1548,
+            "byteOffset" : 161448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 162996
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 164148
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 165300
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 166452
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 167604,
+            "uri" : "Time.bin"
+        }
+    ]
+}
